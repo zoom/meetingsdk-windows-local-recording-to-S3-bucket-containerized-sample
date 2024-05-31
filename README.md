@@ -125,4 +125,4 @@ This project makes use of the following third-party libraries:
 - **curl** by Daniel Stenberg and contributors. [curl GitHub repository](https://github.com/curl/curl).
 - **jsoncpp** by Baptiste Lepilleur and contributors. [jsoncpp GitHub repository](https://github.com/open-source-parsers/jsoncpp).
 
-Please see the [LICENSE](./LICENSE) and [NOTICE](./NOTICE) files for more information.
+Please see the [LICENSE](./LICENSE.md) file for more information.
