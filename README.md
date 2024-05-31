@@ -24,7 +24,7 @@ cd vcpkg
 
 ## Add a configuration file named `config.json`
 ## Disclaimer
-Please be aware that all hard-coded variables and constants shown in the documentation and in the demo, such as Zoom Token, Zoom Access, Token, etc., are ONLY FOR DEMO AND TESTING PURPOSES. We STRONGLY DISCOURAGE the way of HARDCODING any Zoom Credentials (username, password, API Keys & secrets, SDK keys & secrets, etc.) or any Personal Identifiable Information (PII) inside your application. WE DON’T MAKE ANY COMMITMENTS ABOUT ANY LOSS CAUSED BY HARD-CODING CREDENTIALS OR SENSITIVE INFORMATION INSIDE YOUR APP WHEN DEVELOPING WITH OUR SDK.
+Please be aware that all hard-coded variables and constants shown in the documentation and in the demo, such as Zoom Token, Zoom Access, Token, etc., are ONLY FOR DEMO AND TESTING PURPOSES. We STRONGLY DISCOURAGE the way of HARDCODING any Zoom Credentials (username, password, API Keys & secrets, SDK keys & secrets, etc.) or any Personal Identifiable Information (PII) inside your application. WE DONâ€™T MAKE ANY COMMITMENTS ABOUT ANY LOSS CAUSED BY HARD-CODING CREDENTIALS OR SENSITIVE INFORMATION INSIDE YOUR APP WHEN DEVELOPING WITH OUR SDK.
 
 
 
@@ -117,4 +117,13 @@ You will need to download the latest Meeting SDK Windows for c++ from marketplac
 Replace the files in the folder `SDK` with those found in the downloaded files from marketplace.zoom.us
 
 You will need to ensure any missing abstract classes are implemented etc... before you can compile and upgrade to a newer SDK version.
+
+## Credits
+
+This project makes use of the following third-party libraries:
+
+- **curl** by Daniel Stenberg and contributors. [curl GitHub repository](https://github.com/curl/curl).
+- **json** by Niels Lohmann and contributors. [json GitHub repository](https://github.com/nlohmann/json).
+
+Please see the [LICENSE](./LICENSE) and [NOTICE](./NOTICE) files for more information.
 
