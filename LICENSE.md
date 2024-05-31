@@ -10,5 +10,15 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 This project also uses third-party libraries:
 
-- curl, licensed under the [curl license](https://github.com/curl/curl/blob/master/COPYING).
-- json, licensed under the [MIT License](https://github.com/nlohmann/json/blob/develop/LICENSE.MIT).
+### curl
+
+- **Author:** Daniel Stenberg and contributors
+- **License:** curl license
+- **Repository:** [https://github.com/curl/curl](https://github.com/curl/curl)
+
+
+### jsoncpp
+
+- **Author:** Baptiste Lepilleur and contributors
+- **License:** MIT License
+- **Repository:** [https://github.com/open-source-parsers/jsoncpp](https://github.com/open-source-parsers/jsoncpp)
