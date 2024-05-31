@@ -123,7 +123,6 @@ You will need to ensure any missing abstract classes are implemented etc... befo
 This project makes use of the following third-party libraries:
 
 - **curl** by Daniel Stenberg and contributors. [curl GitHub repository](https://github.com/curl/curl).
-- **json** by Niels Lohmann and contributors. [json GitHub repository](https://github.com/nlohmann/json).
+- **jsoncpp** by Baptiste Lepilleur and contributors. [jsoncpp GitHub repository](https://github.com/open-source-parsers/jsoncpp).
 
 Please see the [LICENSE](./LICENSE) and [NOTICE](./NOTICE) files for more information.
-
