@@ -35,7 +35,7 @@ cd vcpkg
 
 ## Add a configuration file named `config.json`
 ## Disclaimer
-Please be aware that all hard-coded variables and constants shown in the documentation and in the demo, such as Zoom Token, Zoom Access, Token, etc., are ONLY FOR DEMO AND TESTING PURPOSES. We STRONGLY DISCOURAGE the way of HARDCODING any Zoom Credentials (username, password, API Keys & secrets, SDK keys & secrets, etc.) or any Personal Identifiable Information (PII) inside your application. WE DON’T MAKE ANY COMMITMENTS ABOUT ANY LOSS CAUSED BY HARD-CODING CREDENTIALS OR SENSITIVE INFORMATION INSIDE YOUR APP WHEN DEVELOPING WITH OUR SDK.
+Please be aware that all hard-coded variables and constants shown in the documentation and in the demo, such as Zoom Token, Zoom Access, Token, etc., are ONLY FOR DEMO AND TESTING PURPOSES. We STRONGLY DISCOURAGE the way of HARDCODING any Zoom Credentials (username, password, API Keys & secrets, SDK keys & secrets, etc.) or any Personal Identifiable Information (PII) inside your application. WE DON’T MAKE ANY COMMITMENTS ABOUT ANY LOSS CAUSED BY HARD-CODING CREDENTIALS OR SENSITIVE INFORMATION INSIDE YOUR APP WHEN DEVELOPING WITH ZOOM SDK.
 
 
 
@@ -120,6 +120,9 @@ From a high level point of view it will do the below
   - Use the Meeting Recording Controller to call `StartRecording()`. Do note that you can only either run `StartRecording()` or `StartRawRecording()`. You cannot run them both at once.
 - The files are stored in your user direct /Documents/Zoom
 	-	When the meeting ends or when the SDK exits the meeting, it is automatically converted
+- After convertion the loop	`while (!encoderEnded)` will execute 
+    -   This is the part where you can run your own custom commands, such as using AWS CLI to authenticate and upload an mp4 blob into S3 Storage.
+	
 
 # Upgrading Guide
 
