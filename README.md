@@ -1,5 +1,12 @@
-# Meeting SDK for Windows - Local Recording
-A Windows C++ Application demonstrate Zoom Meeting SDK receiving Local Recording from a Zoom Meeting, containerized
+# Meeting SDK for Windows - Local Recording on Docker
+A Windows C++ Application demonstrate Zoom Meeting SDK receiving Local Recording from a Zoom Meeting, containerized on Windows platform.
+
+Note: 
+- Windows containers needs to run on Windows based docker host
+- This sample runs with full GUI. While strictly speaking there is no GUI on Windows based docker container, GUI apps are supported.
+- This sample is a community best effort and does not guarantee that Meeting SDK is supported on docker environment.
+- The dockerfile? Yeah it could definately be better optimized. If you able able to optimize it, do a pull request.
+
 
 # Install vcpkg for adding dependency libs.
 You might need to use Powershell (as administrator) or Windows Terminal to execute the sh script files
