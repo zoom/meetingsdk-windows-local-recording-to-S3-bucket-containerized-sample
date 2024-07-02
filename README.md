@@ -122,6 +122,7 @@ From a high level point of view it will do the below
 	-	When the meeting ends or when the SDK exits the meeting, it is automatically converted
 - After convertion the loop	`while (!encoderEnded)` will execute 
     -   This is the part where you can run your own custom commands, such as using AWS CLI to authenticate and upload an mp4 blob into S3 Storage.
+	-   You will need to write this logic yourself
 	
 
 # Upgrading Guide
