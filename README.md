@@ -1,6 +1,10 @@
 # Meeting SDK for Windows - Local Recording on Docker
 A Windows C++ Application demonstrate Zoom Meeting SDK receiving Local Recording from a Zoom Meeting, containerized on Windows platform.
 
+The other popular use-case for this sample app is to save local recording, and upload it into an S3 bucket.
+In MSDK_LocalRecording.cpp, look for `while (!encoderEnded)` . This is the part where you can use AWS CLI to upload the mp4 file into your S3 bucket using CLI.
+
+
 Note: 
 - Windows containers needs to run on Windows based docker host
 - This sample runs with full GUI. While strictly speaking there is no GUI on Windows based docker container, GUI apps are supported.
